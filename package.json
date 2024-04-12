@@ -4,10 +4,10 @@
   "description": "A chatbot that is powered by ChatGPT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Dr. Alwin Simon",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "readline-sync": "^1.4.10"
   }
