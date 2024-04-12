@@ -9,6 +9,7 @@
   "author": "Dr. Alwin Simon",
   "license": "MIT",
   "dependencies": {
+    "openai": "^4.33.0",
     "readline-sync": "^1.4.10"
   }
 }
