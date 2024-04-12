@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "A chatbot that is powered by ChatGPT",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Dr. Alwin Simon",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "openai": "^4.33.0",
+    "colors": "^1.4.0"
+  }
 }
